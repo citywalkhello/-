@@ -1,0 +1,1 @@
+帮我写一个用于移动端的web页面，只有一个页面，仅用 vanilla js和 html 和 css 写成，不引入任务的库。请把文件放在 8-frontend-apps/HealthAssistantWebApp 目录下。这个页面是一个简单的聊天窗口，可以选择本地的图片发送到服务器，服务器的地址为 127.0.0.1，端口号是 80，服务器接口遵循 7-endpoint-integration-server/medical_report_server.py 写的标准。发送图片之后在聊天窗口中显示这个图片，然后显示一个带读秒的等候动画。最后，在收到服务器响应之后将响应的2个部分恰当地显示在聊天窗口中。
